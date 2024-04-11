@@ -1,2 +1,4 @@
-# Recode-Trainee
-Treinamento de Git &amp; Github pra Recode Jr
+## Recode-Trainee
+Treinamento de Git & Github da Recode Jr
+
+### Editado por [Thiago Sousa](https://github.com/ThiagoSousa81)
