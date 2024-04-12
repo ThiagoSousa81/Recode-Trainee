@@ -11,4 +11,6 @@ Treinamento de Git & Github da Recode Jr
 - git commit
 - git push
 - git status
+- git merge
+
 
