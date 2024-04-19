@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Transportes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <h1>RD Transportes</h1>
+        <h2>Compre agora suas passagens</h2>
+        <form action="" method="post">
+            <!-- Digite a origem -->
+            <input type="text" class="txt" name="origem" id="origem" placeholder="Digite a origem">
+            <!-- Digite o destino -->
+            <input type="text" class="txt" name="destino" id="destino" placeholder="Digite o destino">
+            <!-- Quantidade de passagens -->
+            <input type="number" class="txt" name="passagens" id="passagens"
+                placeholder="Digite a quantidade de passagens">
+            <!-- Classe -->
+            <input type="text" class="txt" name="classe" id="classe" placeholder="Digite a classe">
+            <!-- Você quer passagens de Ida e Volta? Sim/não -->
+            <div class="txt container">                
+                <input type="checkbox" name="ida_volta" id="ida_volta" value="true">
+                <label for="ida_volta">Passagens de ida e volta?</label>
+            </div>            
+
+            <button type="submit">BUSCAR</button>
+
+            <p>Não sabe para onde ir? Encontre <a style="color: white" href="https://ebs-systems.epizy.com/" targer="_blank">aqui</a>.</p>
+        </form>
+    </section>
+
+</body>
+
+</html>
