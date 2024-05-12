@@ -8,6 +8,17 @@ document.getElementById("frmPassagens").addEventListener("submit", function(even
     var classe = document.getElementById("txtclasse").value;
     var idaVolta = document.getElementById("chkida_volta").checked;
 
+
+    if (origem == "" || destino == "" || quantidadePassagens == "" || classe == "") {
+        alert("Preencha todos os campos obrigatórios!");
+        return;
+    }
+
+    if (quantidadePassagens < 1) {
+        alert("Informe um número válido de passagens!");
+        return;
+    }
+
     // Exibe os valores dos campos no console
     console.log("Origem:", origem);
     console.log("Destino:", destino);
