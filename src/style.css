@@ -1,6 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    background-image: url(src/onibus.jpg);
+    background-image: url(onibus.jpg);
     background-position-x: 50%;
     background-position-y: 30%;
     padding: 10%;
