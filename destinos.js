@@ -58,6 +58,35 @@ db.cidades.forEach(function (cidade) {
 
     tableBody.appendChild(row); // Adicionando a linha ao corpo da tabela
 });
-// Aqui você pode realizar qualquer outra operação com os dados, como enviar para um servidor via AJAX, por exemplo
+
+
+// Função para renderizar as linhas da tabela com base nos dados fornecidos
+function renderizarTabela(cidades) {
+    const tableBody = document.getElementById('tableBody');
+    tableBody.innerHTML = ''; // Limpa o conteúdo atual da tabela
+    cidades.forEach(function (cidade) {
+        const row = document.createElement('tr');
+        const cellNome = document.createElement('td');
+        cellNome.textContent = cidade.nome;
+        row.appendChild(cellNome);
+        const cellIdaVolta = document.createElement('td');
+        cellIdaVolta.textContent = cidade.idaVolta;
+        row.appendChild(cellIdaVolta);
+        tableBody.appendChild(row);
+    });
+}
+
+// Event listener para o formulário de busca
+document.getElementById('frmBusca').addEventListener('submit', function (event) {
+    event.preventDefault(); // Evita o envio do formulário padrão
+    const busca = document.getElementById('busca').value.toLowerCase(); // Obtém o valor da busca em minúsculas
+    const resultados = db.cidades.filter(function (cidade) {
+        return cidade.nome.toLowerCase().includes(busca); // Filtra as cidades que contêm a busca no nome
+    });
+    renderizarTabela(resultados); // Renderiza as cidades filtradas na tabela
+});
+
+// Renderiza todas as cidades ao carregar a página
+renderizarTabela(db.cidades);
 
 
