@@ -103,3 +103,20 @@ caption {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
+
+#frmBusca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+#frmBusca button {
+    margin: 0px;
+    width: 20%;     
+}
+
+#frmBusca input {
+    margin: 0px;
+    width: 75%;
+    margin-inline-end: 5px;
+}

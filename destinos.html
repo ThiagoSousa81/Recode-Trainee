@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinos - RD Transportes</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="/script.js"></script>
     
     <link rel="icon" href="https://avatars.githubusercontent.com/u/106121095?v=4" type="image/x-icon">
 
@@ -13,32 +14,23 @@
 
 <body>
     <section>
-        <h1>RD Transportes</h1>        
+        <h1>RD Transportes</h1>  
+        <form id="frmBusca" action="" method="get">
+            <input type="text" class="txt" name="busca" id="busca" placeholder="Busque por um destino...">
+            <button type="submit">🔎</button>
+        </form>        
         <table border="1">
             <caption>Destinos disponíveis</caption>
             <thead>
                 <tr>
                     <th>Cidade</th>
-                    <th>Valor Convencional</th>
-                    <th>Valor Expresso</th>
+                    <th>Ida e Volta disponível?</th>                    
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Cruz das Almas</td>
-                    <td>R$ 8,00</td>
-                    <td>R$ 12,00</td>
-                </tr>
-                <tr>
-                    <td>Feira de Santana</td>
-                    <td>R$ 60,00</td>
-                    <td>R$ 65,00</td>
-                </tr>
-                <tr>
-                    <td>Salvador</td>
-                    <td>R$ 80,00</td>
-                    <td>R$ 85,00</td>
-                </tr>
+                                       
+                </tr>                
             </tbody>
         </table>
         <a style="color: white;" href="index.html">Voltar</a>
