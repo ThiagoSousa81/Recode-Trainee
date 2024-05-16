@@ -66,7 +66,7 @@ let db = {
             idaVolta: "Não"
         },
         {
-            nome: "São Félix",
+            nome: "São Felix",
             idaVolta: "Não"
         },
         {
