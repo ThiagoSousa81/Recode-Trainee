@@ -5,7 +5,7 @@
 
 body {
     background-image: url(onibus2.jpg);
-    /* background-position-x: 50%; */
+    background-position-x: 50%;
     background-position-y: 70%;
     padding: 10%;
     background-size: cover;
@@ -123,5 +123,7 @@ caption {
 }
 
 .description {
-
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
 }
