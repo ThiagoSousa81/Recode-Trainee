@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(onibus.jpg);
+    background-image: url(onibus2.jpg);
     background-position-x: 50%;
     background-position-y: 30%;
     padding: 10%;
@@ -119,4 +119,8 @@ caption {
     margin: 0px;
     width: 75%;
     margin-inline-end: 5px;
+}
+
+.description {
+    
 }
