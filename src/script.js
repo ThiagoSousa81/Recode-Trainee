@@ -37,6 +37,9 @@ document.getElementById("frmPassagens").addEventListener("submit", function(even
         alert('Opção de ida e volta não disponível para a cidade escolhida.');
         return;
     }
+
+    // Caso tudo ocorra de forma correta
+    alert("Passagens reservadas com sucesso!");
 });
 
 let db = {
