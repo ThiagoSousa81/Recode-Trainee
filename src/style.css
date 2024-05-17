@@ -5,9 +5,10 @@
 
 body {
     background-image: url(onibus2.jpg);
-    background-position-x: 50%;
-    background-position-y: 30%;
+    /* background-position-x: 50%; */
+    background-position-y: 70%;
     padding: 10%;
+    background-size: cover;
     display: grid;
     place-items: center;
 }
@@ -122,5 +123,5 @@ caption {
 }
 
 .description {
-    
+
 }
