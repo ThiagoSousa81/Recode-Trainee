@@ -12,7 +12,7 @@ Ante o exposto, a utilizção do JS é crucial para o desenvolvimento de platafo
 
 </details>
 
-### Desenvolvimento da plataforma
+## Desenvolvimento da plataforma
 <details><summary>Ver mais...</summary>
 Bom, apesar de ter uma boa carga de conhecimento prático de programação, o JavaScript - assim como SQL - nunca foram o meu forte. Ter que utilizar JS puro pra mim é um bom desafio, principalmente pelo fato de meu domínio total da área ser baseado em linguagens orientadas a objeto de tipagem forte, como C#, PowerShell, Java, PHP, etc. <br>
 
