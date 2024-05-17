@@ -106,4 +106,23 @@ Com essa etapa pronta, foi o momento de desenvolver a página do [Encontre Aqui]
 
 > Veja completo [aqui](https://github.com/ThiagoSousa81/Recode-Trainee/blob/2c1b005343a556109fedfdda0d7dc720024c976f/src/destinos.js#L44C1-L60C4)
 
+Feito isso, fez-se necessário um campo de busca, então fiz assim
+
+    // Event listener para o formulário de busca
+    document.getElementById('frmBusca').addEventListener('submit', function (event) {
+        event.preventDefault(); // Evita o envio do formulário padrão
+        const busca = document.getElementById('busca').value.toLowerCase(); // Obtém o valor da busca em minúsculas
+        const resultados = db.cidades.filter(function (cidade) {
+            return cidade.nome.toLowerCase().includes(busca); // Filtra as cidades que contêm a busca no nome
+        });
+        renderizarTabela(resultados); // Renderiza as cidades filtradas na tabela
+    });
+
+    // Renderiza todas as cidades ao carregar a página
+    renderizarTabela(db.cidades);
+
+> Veja completo [aqui](https://github.com/ThiagoSousa81/Recode-Trainee/blob/2c1b005343a556109fedfdda0d7dc720024c976f/src/destinos.js#L79C1-L90C30)
+
+
+
 </details>
