@@ -132,3 +132,11 @@ O <i>deploy</i> foi realizado utilizando o Git-Hub Pages, porém existem método
 Não vou tratar de explicar aqui as complexidades por trás do deploy no Git-Hub Pages, mas posso tratar disso noutro momento.
 
 </details>
+
+## Conclusão
+
+<details><summary>Ver mais...</summary>
+
+Um belo trabalho para instigar a criatividade e a capacidade de resolução de problemas num espaço limitado de recursos de software. Essa é a melhor forma que posso definir essa atividade, primária, porém necessária para convívio numa equipe experiente como a Recode Jr. Apesar de toda a dificuldade para ter que criar o projeto Piloto com JS de um possível sistema maior, não há situação mais gratificante que observar a produção rodando em perfeito estado e um <code>HTTP 200 OK</code> no final dos logs do Git-Hub Pages. 
+
+</details>
