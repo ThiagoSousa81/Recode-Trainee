@@ -128,5 +128,7 @@ Com a página dos destinos funcionando por completo fui fazer as últimas corre�
 > Link do trabalho final: https://thiagosousa81.github.io/Recode-Trainee/index.html
 
 O <i>deploy</i> foi realizado utilizando o Git-Hub Pages, porém existem métodos melhores para uma aplicação real de grande porte funcionar, como Vercel, AWS, Heroku e Google Cloud. 
+<br><br>
+Não vou tratar de explicar aqui as complexidades por trás do deploy no Git-Hub Pages, mas posso tratar disso noutro momento.
 
 </details>
