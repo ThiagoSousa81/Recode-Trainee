@@ -123,6 +123,10 @@ Feito isso, fez-se necessário um campo de busca, então fiz assim
 
 > Veja completo [aqui](https://github.com/ThiagoSousa81/Recode-Trainee/blob/2c1b005343a556109fedfdda0d7dc720024c976f/src/destinos.js#L79C1-L90C30)
 
+Com a página dos destinos funcionando por completo fui fazer as últimas correções e o resultado do projeto foi [esse](https://thiagosousa81.github.io/Recode-Trainee/index.html).
 
+> Link do trabalho final: https://thiagosousa81.github.io/Recode-Trainee/index.html
+
+O <i>deploy</i> foi realizado utilizando o Git-Hub Pages, porém existem métodos melhores para uma aplicação real de grande porte funcionar, como Vercel, AWS, Heroku e Google Cloud. 
 
 </details>
