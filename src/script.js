@@ -33,7 +33,7 @@ document.getElementById("frmPassagens").addEventListener("submit", function(even
     }
 
     // Verificando se a opção de ida e volta está disponível para a cidade de destino
-    if (!verificarIdaVolta(destino)) {
+    if (idaVolta === true && !verificarIdaVolta(destino)) {
         alert('Opção de ida e volta não disponível para a cidade escolhida.');
         return;
     }
